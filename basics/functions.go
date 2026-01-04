@@ -1,5 +1,4 @@
-// package basics
-package main
+package basics
 
 import "fmt"
 
@@ -78,8 +77,4 @@ func makeCounter() func() int {
 		count++
 		return count
 	}
-}
-
-func main() {
-	RunFunctionsExample()
 }

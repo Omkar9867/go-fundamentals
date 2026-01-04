@@ -1,5 +1,4 @@
-// package basics
-package main
+package basics
 
 import "fmt"
 
@@ -104,8 +103,4 @@ func RunControlStructuresExample() {
 	default:
 		fmt.Println("   Number is 20 or greater")
 	}
-}
-
-func main() {
-	RunControlStructuresExample()
 }
